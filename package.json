@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "Mohsin",
   "license": "ISC",
   "dependencies": {
-    "solc": "^0.8.21"
+    "ganache": "^7.9.0",
+    "mocha": "^10.2.0",
+    "solc": "^0.8.21",
+    "web3": "^4.0.3"
   }
 }
